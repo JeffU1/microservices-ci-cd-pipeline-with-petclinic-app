@@ -21,7 +21,7 @@ public class PetTest {
         //Act
         pet.setOwner(owner);
         //Assert
-        assertEquals("CemU", pet.getOwner().getFirstName());
+        assertEquals("Cem", pet.getOwner().getFirstName());
     }
     @Test
     public void testBirthDate(){
