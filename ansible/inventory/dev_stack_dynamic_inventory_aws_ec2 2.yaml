@@ -3,7 +3,7 @@ regions:
   - "us-east-1"
 filters:
   tag:app-stack-name: APP_STACK_NAME
-  tag:environment: qa
+  tag:environment: dev
 keyed_groups:
   - key: tags['app-stack-name']
     prefix: 'app_stack_'
@@ -18,5 +18,5 @@ keyed_groups:
     separator: ''
 hostnames:
   - "private-ip-address"
-compose:
+compose: 
   ansible_user: "'ec2-user'"
