@@ -12,7 +12,7 @@ metadata:
   name: api-gateway
 spec:
   rules:
-    - host: petclinic.cemulusoy.me
+    - host: petclinic.clarusway.us
       http:
         paths:
           - backend:
