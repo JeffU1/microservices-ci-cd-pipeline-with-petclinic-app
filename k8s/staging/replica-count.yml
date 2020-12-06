@@ -6,3 +6,10 @@ metadata:
 spec:
   replicas: 3
 
+---
+
+apiVersion: extensions/v1beta1
+kind: Ingress
+spec:
+  rules:
+    - host: petclinic-staging.cemulusoy.me
